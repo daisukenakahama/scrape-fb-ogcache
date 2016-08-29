@@ -1,0 +1,14 @@
+'use strict';
+
+const FB = require('fb');
+FB.options({version: 'v2.7'});
+
+module.exports = function ogCacheClear(url, appAccessToken, callback) {
+    FB.api('', 'post', {
+        scrape: true,
+        id: url,
+        access_token: appAccessToken
+    }, function (res) {
+        callback(res);
+    });
+}

@@ -1,0 +1,38 @@
+{
+  "name": "opengraph-scraper",
+  "version": "1.0.0",
+  "description": "Open Graph cache scaper for Node.js",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daisukenakahama/opengraph-scraper.git"
+  },
+  "keywords": [
+    "opengraph",
+    "facebook",
+    "cache",
+    "scrape"
+  ],
+  "author": "Daisuke Nakahama <daisuke@rhizomatiks.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daisukenakahama/opengraph-scraper/issues"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "homepage": "https://github.com/daisukenakahama/opengraph-scraper#readme",
+  "dependencies": {
+    "fb": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
