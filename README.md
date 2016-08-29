@@ -1,7 +1,7 @@
 # opengraph-scraper
 
-[![Build Status](https://travis-ci.org/daisukenakahama/opengraph-scraper.svg?branch=master)](https://travis-ci.org/daisukenakahama/opengraph-scraper)
-[![Coverage Status](https://coveralls.io/repos/github/daisukenakahama/opengraph-scraper/badge.svg?branch=master)](https://coveralls.io/github/daisukenakahama/opengraph-scraper?branch=master)
+[![Build Status](https://travis-ci.org/daisukenakahama/fb-opengraph-scraper.svg?branch=master)](https://travis-ci.org/daisukenakahama/fb-opengraph-scraper)
+[![Coverage Status](https://coveralls.io/repos/github/daisukenakahama/fb-opengraph-scraper/badge.svg)](https://coveralls.io/github/daisukenakahama/fb-opengraph-scraper)
 
 ## Scrapes open graph cache of Facebook with Node.js
 
