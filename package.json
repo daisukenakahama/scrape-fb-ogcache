@@ -1,6 +1,6 @@
 {
   "name": "fb-opengraph-scraper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Open Graph cache scraper for Node.js",
   "main": "index.js",
   "directories": {

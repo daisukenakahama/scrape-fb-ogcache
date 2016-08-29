@@ -25,6 +25,5 @@ scrape(url, token, (res) => {
   } else {
     console.log(`[${total - sitemap.urlset.url.length} / ${total} : SUCCESS]`, url);
   }
-  scrapeNext(sitemap, total);
 });
 ```
