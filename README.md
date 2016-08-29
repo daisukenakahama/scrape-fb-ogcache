@@ -16,13 +16,14 @@ npm install --save fb-opengraph-scraper
 ## Usage
 
 ```nodejs
+// example with es2015
 const scrape = require('fb-opengraph-scraper');
 const token = <PUT YOUR APP TOKEN OF FACEBOOK>;
 scrape(url, token, (res) => {
   if (res.error) {
-    console.log(`[${total - sitemap.urlset.url.length} / ${total} : FAILED]`, url.loc[0], res);
+    console.log(`[${total - sitemap.urlset.url.length} / ${total} : FAILED]`, url, res);
   } else {
-    console.log(`[${total - sitemap.urlset.url.length} / ${total} : SUCCESS]`, url.loc[0]);
+    console.log(`[${total - sitemap.urlset.url.length} / ${total} : SUCCESS]`, url);
   }
   scrapeNext(sitemap, total);
 });
