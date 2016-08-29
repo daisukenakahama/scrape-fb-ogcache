@@ -10,6 +10,7 @@ describe('Cache of OpenGraph on Facebook is updated', function() {
     let url = 'https://architecture.rhizomatiks.com/works/roppongi_artnight.html';
 
     before(function(done) {
+        this.timeout(10000);
         callAPI(url, appAccessToken, done);
     });
 
