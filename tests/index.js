@@ -1,13 +1,13 @@
 'use strict';
 
-const expect = require('chai').expect;
-const ogCacheClear = require('../index');
-const appAccessToken = process.env.GRAPH_API_APP_TOKEN;
+var expect = require('chai').expect;
+var ogCacheClear = require('../index');
+var appAccessToken = process.env.GRAPH_API_APP_TOKEN;
 var response;
 var startTime;
 
 describe('Cache of OpenGraph on Facebook is updated', function() {
-    let url = 'https://architecture.rhizomatiks.com/works/roppongi_artnight.html';
+    var url = 'https://architecture.rhizomatiks.com/works/roppongi_artnight.html';
 
     before(function(done) {
         this.timeout(10000);
