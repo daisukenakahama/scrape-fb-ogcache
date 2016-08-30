@@ -1,7 +1,7 @@
-# fb-opengraph-scraper
+# scrape-fb-ogcache
 
-[![Build Status](https://travis-ci.org/daisukenakahama/fb-opengraph-scraper.svg?branch=master)](https://travis-ci.org/daisukenakahama/fb-opengraph-scraper)
-[![Coverage Status](https://coveralls.io/repos/github/daisukenakahama/fb-opengraph-scraper/badge.svg)](https://coveralls.io/github/daisukenakahama/fb-opengraph-scraper)
+[![Build Status](https://travis-ci.org/daisukenakahama/scrape-fb-ogcache.svg?branch=master)](https://travis-ci.org/daisukenakahama/scrape-fb-ogcache)
+[![Coverage Status](https://coveralls.io/repos/github/daisukenakahama/scrape-fb-ogcache/badge.svg)](https://coveralls.io/github/daisukenakahama/scrape-fb-ogcache)
 
 ## Scrapes open graph cache of Facebook with Node.js
 
@@ -10,14 +10,14 @@ With this package, you can write easily the code to scrape open graph cache of F
 ## Installation
 
 ```bash
-npm install --save fb-opengraph-scraper
+npm install --save scrape-fb-ogcache
 ```
 
 ## Usage
 
 ```nodejs
 // example with es2015
-const scrape = require('fb-opengraph-scraper');
+const scrape = require('scrape-fb-ogcache');
 const token = <PUT YOUR APP TOKEN OF FACEBOOK>;
 scrape(url, token, (res) => {
   if (res.error) {

@@ -1,5 +1,5 @@
 {
-  "name": "fb-opengraph-scraper",
+  "name": "scrape-fb-ogcache",
   "version": "1.0.4",
   "description": "Open Graph cache scraper for Node.js",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daisukenakahama/fb-opengraph-scraper.git"
+    "url": "git+https://github.com/daisukenakahama/scrape-fb-ogcache.git"
   },
   "keywords": [
     "opengraph",
@@ -22,12 +22,12 @@
   "author": "Daisuke Nakahama <daisuke@rhizomatiks.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daisukenakahama/fb-opengraph-scraper/issues"
+    "url": "https://github.com/daisukenakahama/scrape-fb-ogcache/issues"
   },
   "engines": {
     "node": ">=4"
   },
-  "homepage": "https://github.com/daisukenakahama/fb-opengraph-scraper#readme",
+  "homepage": "https://github.com/daisukenakahama/scrape-fb-ogcache#readme",
   "dependencies": {
     "fb": "^1.1.1"
   },
